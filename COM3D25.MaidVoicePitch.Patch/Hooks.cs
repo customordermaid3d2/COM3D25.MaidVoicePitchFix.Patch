@@ -10,7 +10,6 @@ namespace COM3D25.MaidVoicePitch.Patch
     {
         static string[] plugins = new string[] { "CM3D2.MaidVoicePitch" };
 
-
         internal static void ForeArmFix(Maid maid)
         {
             foreach (string pluginName in plugins)
